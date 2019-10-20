@@ -7,12 +7,10 @@ class Main {
 
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
 
-        Client ienclit = new Client("remybob","georges","okm","211");
-
-
-
+        Client client = new Client("georges","kikano","gmk","308");
 
     }
 }
