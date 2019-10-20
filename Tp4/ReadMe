@@ -1,0 +1,8 @@
+					
+Erreurs notables :
+
+
+On remarque que les cardinalités entre Client et Reservation sont multiples, de meme entre Reservation et Passager. 
+
+Il serait donc préférable de mettre une liste de Reservation dans le Client, ainsi qu'une liste de Passager dans Reservation.
+
